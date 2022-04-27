@@ -1,5 +1,6 @@
 # pavlov-rcon-autobalance
-A script that auto-balanced teams when one team has 2 or more people than on the other team
+A script that auto-balanced teams when one team has 2 or more people than on the other team.
+The lowest scoring player (or the one who has just switched) will be balanced out to prevent top-scoring players from being moved forcefully.
 
 Make sure you install async-pavlov
 `pip install async-pavlov`
